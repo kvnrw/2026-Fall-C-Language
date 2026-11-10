@@ -25,7 +25,7 @@ int main(void)
         if (strcmp(lower, "my") == 0)
             my_count++;
 
-        word = strtok(NULL, " ,.!?;");   /* next word */
+        word = strtok(NULL, " ,.!?;");
     }
 
     /* Task 3: print the results. */
